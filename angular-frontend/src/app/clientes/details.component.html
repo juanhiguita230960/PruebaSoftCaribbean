@@ -1,0 +1,135 @@
+<div class="card">
+  <div class="card-header">
+  Detalles
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+
+        <fieldset disabled>
+            <legend>  {{ cliente.cus_dsnombres + ' ' + cliente.cus_dsapellidos }} </legend>
+            <div class="container containerPosition">
+              <div class="mb-3 row">
+                 <label for="staticide" class="col-sm-2 col-form-label">Identificación: </label>
+                 <div class="col-sm-10">
+                   <input type="text" readonly class="form-control" id="staticide" [(ngModel)]="cliente.cus_nmcliente" >
+                 </div>
+               </div>
+
+
+               <div class="mb-3 row">
+                  <label for="staticDir" class="col-sm-2 col-form-label">Dirección: </label>
+                  <div class="col-sm-10">
+                    <input type="text" readonly class="form-control" id="staticDir" [(ngModel)]="cliente.cus_dsdireccion" >
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                   <label for="staticEmail" class="col-sm-2 col-form-label">Correo: </label>
+                   <div class="col-sm-10">
+                     <input type="text" readonly class="form-control" id="staticEmail" [(ngModel)]="cliente.cus_dscorreo" >
+                   </div>
+                 </div>
+                 <div class="mb-3 row">
+                    <label for="staticTel" class="col-sm-2 col-form-label">Telefono: </label>
+                    <div class="col-sm-10">
+                      <input type="text" readonly class="form-control" id="staticTel" [(ngModel)]="cliente.cus_cdtelefono" >
+                    </div>
+                  </div>
+                   <div class="mb-3 row">
+                      <label for="staticTelAlter" class="col-sm-2 col-form-label">Telefono alterno:</label>
+                      <div class="col-sm-10">
+                        <input type="text" readonly class="form-control" id="staticTelAlter" [(ngModel)]="cliente.cus_cdtelefonoalter" >
+                      </div>
+                    </div>
+                   <div class="mb-3 row">
+                      <label for="staticCelular" class="col-sm-2 col-form-label">Celular: </label>
+                      <div class="col-sm-10">
+                        <input type="text" readonly class="form-control" id="staticCelular" [(ngModel)]="cliente.cus_cdcelular" >
+                      </div>
+                    </div>
+                    <div class="mb-3 row">
+                       <label for="staticNumCar" class="col-sm-2 col-form-label">Num. cargo: </label>
+                       <div class="col-sm-10">
+                         <input type="text" readonly class="form-control" id="staticNumCar" [(ngModel)]="cliente.cus_nmcargo" >
+                       </div>
+                     </div>
+                     <div class="mb-3 row">
+                        <label for="staticCargo" class="col-sm-2 col-form-label">Cargo: </label>
+                        <div class="col-sm-10">
+                          <input type="text" readonly class="form-control" id="staticCargo"  [(ngModel)]="cliente.cus_dscargo">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                         <label for="staticNumCiu" class="col-sm-2 col-form-label">Num. Ciudad: </label>
+                         <div class="col-sm-10">
+                           <input type="text" readonly class="form-control" id="staticNumCiu"[(ngModel)]="cliente.cus_nmciudad">
+                         </div>
+                       </div>
+                       <div class="mb-3 row">
+                          <label for="staticCiu" class="col-sm-2 col-form-label">Ciudad: </label>
+                          <div class="col-sm-10">
+                            <input type="text" readonly class="form-control" id="staticCiu"[(ngModel)]="cliente.cus_dsciudad">
+                          </div>
+                        </div>
+                         <div class="mb-3 row">
+                            <label for="staticGen" class="col-sm-2 col-form-label">Genero: </label>
+                            <div class="col-sm-10">
+                              <input type="text" readonly class="form-control" id="staticGen"[(ngModel)]="cliente.cus_genero">
+                            </div>
+                          </div>
+                          <div class="mb-3 row">
+                             <label for="staticNumComun" class="col-sm-2 col-form-label">Num. Comunidad: </label>
+                             <div class="col-sm-10">
+                               <input type="text" readonly class="form-control" id="staticNumComun"[(ngModel)]="cliente.cus_nmcomunidad">
+                             </div>
+                           </div>
+                           <div class="mb-3 row">
+                              <label for="staticComun" class="col-sm-2 col-form-label">Comunidad: </label>
+                              <div class="col-sm-10">
+                                <input type="text" readonly class="form-control" id="staticComun"[(ngModel)]="cliente.cus_dscomunidad">
+                              </div>
+                            </div>
+                            <div class="mb-3 row">
+                               <label for="staticEmpr" class="col-sm-2 col-form-label">Empresa: </label>
+                               <div class="col-sm-10">
+                                 <input type="text" readonly class="form-control" id="staticEmpr"[(ngModel)]="cliente.cus_dsempresalabora">
+                               </div>
+                             </div>
+                             <div class="mb-3 row">
+                                <label for="staticNumDiv" class="col-sm-2 col-form-label">Num. división: </label>
+                                <div class="col-sm-10">
+                                  <input type="text" readonly class="form-control" id="staticNumDiv"[(ngModel)]="cliente.cus_nmdivision">
+                                </div>
+                              </div>
+                              <div class="mb-3 row">
+                                 <label for="staticDiv" class="col-sm-2 col-form-label">División: </label>
+                                 <div class="col-sm-10">
+                                   <input type="text" readonly class="form-control" id="staticDiv"[(ngModel)]="cliente.cus_dsdivision">
+                                 </div>
+                               </div>
+                               <div class="mb-3 row">
+                                  <label for="staticNumPais" class="col-sm-2 col-form-label">Num. país: </label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control" id="staticNumPais"[(ngModel)]="cliente.cus_nmpais">
+                                  </div>
+                                </div>
+                                <div class="mb-3 row">
+                                   <label for="staticPais" class="col-sm-2 col-form-label">País: </label>
+                                   <div class="col-sm-10">
+                                     <input type="text" readonly class="form-control" id="staticPais"[(ngModel)]="cliente.cus_dspais">
+                                   </div>
+                                 </div>
+                                 <div class="mb-3 row">
+                                    <label for="staticHobbie" class="col-sm-2 col-form-label">Hobbies: </label>
+                                    <div class="col-sm-10">
+                                      <input type="text" readonly class="form-control" id="staticHobbie"[(ngModel)]="cliente.cus_hobbies">
+                                    </div>
+                                  </div>
+
+
+            </div>
+
+        </fieldset>
+
+    </blockquote>
+  </div>
+</div>
